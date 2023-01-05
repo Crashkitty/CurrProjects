@@ -1,0 +1,7 @@
+data.forEach(crime => {
+  const marker = new google.maps.Marker({
+    position: {lat: crime.latitude, lng: crime.longitude},
+    map: map,
+    title: crime.description
+  });
+});
