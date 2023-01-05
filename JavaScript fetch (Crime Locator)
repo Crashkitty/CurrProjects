@@ -1,0 +1,5 @@
+fetch('https://api.crime-locator.com/v1/crimes?lat=LATITUDE&lon=LONGITUDE&radius=RADIUS')
+  .then(response => response.json())
+  .then(data => {
+  });
+   // Do something with the crime data
